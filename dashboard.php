@@ -157,7 +157,7 @@ $jml_alternatif = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM tbl_alte
 
     <div class="main-content">
         <div class="header">
-            Azzvel Web
+            Azzvel Project
         </div>
 
         <div class="row g-4 text-center">
@@ -170,7 +170,7 @@ $jml_alternatif = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM tbl_alte
             </div>
             <div class="col-md-6">
                 <div class="card-dashboard text-success">
-                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <div class="card-icon"><i class="fas fa-book me-2"></i></div>
                     <h3><?= $jml_alternatif; ?></h3>
                     <p>Daftar Novel</p>
                 </div>

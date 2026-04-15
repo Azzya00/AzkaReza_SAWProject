@@ -305,7 +305,7 @@ $row=mysqli_fetch_assoc($q);
             <!-- TABEL -->
             <div class="col-md-8">
 
-                <!-- 🔼 PEMBOBOTAN (ATAS) -->
+                <!-- PEMBOBOTAN -->
                 <?php if($last): ?>
                 <div class="card p-3">
                     <h5 class="text-success">Pembobotan Kriteria</h5>
@@ -331,19 +331,18 @@ $row=mysqli_fetch_assoc($q);
                             <td>1</td>
                         </tr>
                     </table>
-                    <p class="mt-3"><strong>Matriks Bobot :</strong> W = [ <?= $norm['C1'] ?>, <?= $norm['C2'] ?>,
-                        <?= $norm['C3'] ?>, <?= $norm['C4'] ?>, <?= $norm['C5'] ?> ]</p>
+
                 </div>
             </div>
             <?php endif; ?>
 
-            <!-- 🔽 DATA KRITERIA -->
+            <!-- DATA KRITERIA -->
             <div class="card p-3">
                 <h5>Data Kriteria</h5>
 
                 <table class="table table-bordered text-center">
                     <tr>
-                        <th>#</th>
+                        <th>No</th>
                         <?php for($i=1;$i<=5;$i++): ?>
                         <th><?= $nama_kriteria[$i] ?></th>
                         <?php endfor; ?>

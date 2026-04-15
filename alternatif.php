@@ -294,7 +294,7 @@ $row=mysqli_fetch_assoc($q);
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped text-center">
                             <tr>
-                                <th>#</th>
+                                <th>No</th>
                                 <th>Kode Novel</th>
                                 <th>Judul Novel</th>
                                 <th>Rating</th>

@@ -248,7 +248,7 @@ $topNilai = $ranking[$topIndex];
 
         <!-- Normalisasi -->
         <div class="card p-3">
-            <h5>Matriks R</h5>
+            <h5>Normalisasi (Matriks R)</h5>
             <table class="table table-bordered text-center">
                 <tr>
                     <th>No</th>
@@ -277,15 +277,17 @@ $topNilai = $ranking[$topIndex];
 
         <!-- Vi -->
         <div class="card p-3">
-            <h5>Nilai Vi</h5>
+            <h5>Nilai Preferensi (Vi)</h5>
             <table class="table table-bordered text-center">
                 <tr>
+                    <th>No</th>
                     <th>Alternatif</th>
                     <th>Vi</th>
                 </tr>
 
                 <?php foreach($Vi as $i=>$v): ?>
                 <tr>
+                    <td><?= $i+1 ?></td>
                     <td><?= $alternatif[$i]['novel'] ?></td>
                     <td><?= $v ?></td>
                 </tr>
@@ -300,7 +302,7 @@ $topNilai = $ranking[$topIndex];
             <table class="table table-bordered text-center">
                 <tr>
                     <th>Rank</th>
-                    <th>Nama</th>
+                    <th>Judul Novel</th>
                     <th>Nilai</th>
                 </tr>
 
@@ -315,7 +317,7 @@ $topNilai = $ranking[$topIndex];
             </table>
         </div>
         <div class="card p-4 text-center">
-            <h4 class="mb-3">📖 Rekomendasi Novel Terbaik 📖</h4>
+            <h4 class="mb-3">Rekomendasi Novel Terbaik:</h4>
 
             <h2 style="font-weight:700;">
                 <?= $topNama ?>
