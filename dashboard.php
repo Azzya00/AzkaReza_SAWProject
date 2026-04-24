@@ -157,7 +157,7 @@ $jml_alternatif = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM tbl_alte
 
     <div class="main-content">
         <div class="header">
-            Azzvel Project
+            Web Pemilihan Novel
         </div>
 
         <div class="row g-4 text-center">
